@@ -1,9 +1,10 @@
 #page-room {
+  margin-left: 15px;
   header {
     padding: 24px;
     border-bottom: 1px solid #e2e2e2;
 
-    .content {
+ .content {
       max-width: 1120px;
       margin: 0 auto;
       display: flex;
@@ -13,10 +14,20 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
   main {
+    margin-left: 400px !important;
     max-width: 800px;
     margin: 0 auto;
 
@@ -31,7 +42,7 @@
         color: #29292e;
       }
 
-      span {
+     span {
         margin-left: 16px;
         background: #e559f9;
         border-radius: 9999px;
@@ -42,7 +53,7 @@
       }
     }
 
-    form {
+     form {
       textarea {
         width: 100%;
         border: 0;
@@ -94,6 +105,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
