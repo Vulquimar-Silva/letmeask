@@ -72,6 +72,7 @@ return (
                 </div>
 
                 <AudioPlayer
+                  autoPlay
                   className="player"
                   src={station.urlResolved}
                   showJumpControls={false}

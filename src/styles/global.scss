@@ -12,3 +12,36 @@ body {
 body, input, button, textarea {
   font: 400 16px 'Roboto', sans-serif;
 }
+
+.btn {
+  width: 20px !important;
+  border-radius: 50%;
+  font-weight: 500;
+  background: #f8f8f8;
+  color: #29292e;
+  padding: 0 62px;
+  margin-right: -76px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+
+}
+
+.btnRoom {
+  width: 20px !important;
+  border-radius: 50%;
+  font-weight: 500;
+  background: #f8f8f8;
+  color: #29292e;
+  padding: 0 62px;
+  margin-right: -76px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+}
