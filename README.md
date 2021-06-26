@@ -8,7 +8,7 @@
 
 
 
-### Esse NLW foi incrível, cada vez mais a Rocketseat vem mostrando seu valor no mercado, parabéns a todo time.
+### Esse NLW foi incrível, cada vez mais a Rocketseat vem mostrando seu valor no mercado, parabéns ao time.
 
 Os conceitos que mais aprendi nesse nlw foi:
 - ContextAPI
