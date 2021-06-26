@@ -104,16 +104,16 @@ useEffect(() => {
         return teste.likeCount
       })
 
-      if(allLikes === 0){
-
-      const totalLikes = allLikes.Array.prototype.reduce.reduce((value1, value2) => value1 + value2)
-      return document.getElementById("total").innerHTML = totalLikes;
       
-      } else {
+      let totalLikes = allLikes;
 
-        const totalLikes = 0;
-        return document.getElementById("total").innerHTML = totalLikes;
-     }
+      let total = totalLikes.reduce(function(total, numero){
+      return total + numero;
+      }, 0);
+      console.log(total);
+
+      document.getElementById("total").innerHTML = total;
+    
     })
     
 })

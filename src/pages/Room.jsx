@@ -52,12 +52,13 @@ async function logout() {
   };
 
   const admRoom = () => {
-    if(user){
+    
       history.push(`/admin/rooms/${roomId}`);
-      }
+      
     }
 
   const { title, questions } = useRoom(roomId)
+
 
   async function handleSendQuestion(event) {
     event.preventDefault();
