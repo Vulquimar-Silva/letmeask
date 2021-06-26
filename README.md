@@ -11,7 +11,5 @@
 ### Esse NLW foi incrível, cada vez mais a Rocketseat vem mostrando seu valor no mercado, parabéns ao time.
 
 Os conceitos que mais aprendi nesse nlw foi:
-- ContextAPI
-- Firebase Authentication
-- Typescript
-
+- [Context](https://pt-br.reactjs.org/docs/context.html)✍🏼
+- [Firebase Authentication](https://firebase.google.com/docs/auth)✍🏼
