@@ -104,11 +104,16 @@ useEffect(() => {
         return teste.likeCount
       })
 
-      const totalLikes = allLikes.reduce((value1, value2) => value1 + value2)
-     
+      if(allLikes === 0){
 
-      document.getElementById("total").innerHTML = totalLikes;
+      const totalLikes = allLikes.Array.prototype.reduce.reduce((value1, value2) => value1 + value2)
+      return document.getElementById("total").innerHTML = totalLikes;
       
+      } else {
+
+        const totalLikes = 0;
+        return document.getElementById("total").innerHTML = totalLikes;
+     }
     })
     
 })
@@ -172,7 +177,7 @@ useEffect(() => {
       <main>
         <div className="room-title">
           <h1>Sala {title} </h1>
-          <span>{questions.length} pergunta(s)</span><span><span style={{marginLeft:"-20px", marginRight: "-14px"}} id="total"></span>Like(s)</span>
+          <span>{questions.length} pergunta(s)</span><span><span style={{marginLeft:"-20px", marginRight: "-14px"}} id="total">0</span> Like(s)</span>
         </div>
 
         <div className="question-list">
