@@ -1,7 +1,7 @@
 
 # Projeto LetmeAsk
 
-[React Badge]
+[![React Badge](https://img.shields.io/badge/-React-000?style=flat-square&logo=React&logoColor=white&link=https://pt-br.reactjs.org/)]
 [Typescript Badge]
 [Sass Badge]
 [Firebase Badge]
