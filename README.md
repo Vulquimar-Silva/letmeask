@@ -8,7 +8,7 @@
 
 
 
-### Esse NLW foi incrível, cada vez mais a Rocketseat vem mostrando seu valor no mercado, parabéns ao time.🚀
+### Esse NLW foi incrível, cada vez mais a [Rocketseat](https://rocketseat.com.br/) vem mostrando seu valor no mercado, parabéns ao time.🚀
 
 Os conceitos que mais aprendi nesse nlw foi:
 - [Context](https://pt-br.reactjs.org/docs/context.html)✍🏼
