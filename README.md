@@ -1,10 +1,10 @@
 
 # Projeto LetmeAsk
 
-[![React Badge]
-[![Typescript Badge]
-[![Sass Badge]
-[![Firebase Badge]
+[React Badge]
+[Typescript Badge]
+[Sass Badge]
+[Firebase Badge]
 
 ### About me
 Esse NLW foi incrível, cada vez mais a Rocketseat vem mostrando seu valor no mercado, parabéns a todo time.
